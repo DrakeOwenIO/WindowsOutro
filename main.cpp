@@ -8,7 +8,7 @@ using namespace std;
 
 int playSong(){
     // Start the song
-    PlaySound(TEXT("Outro.wav"), NULL, SND_FILENAME | SND_ASYNC);
+    PlaySound(TEXT("music/Outro.wav"), NULL, SND_FILENAME | SND_ASYNC);
     return 0;
 }
 
